@@ -43,7 +43,7 @@ class App extends React.Component {
     return (
         <div className={style.TodoApp}>
             <Title title="Kodilla TodoApp"/>
-            <TodoList list={this.state.data} remove={this.removeTodo} self={this}/>
+            <TodoList list={this.state.data} remove={this.removeTodo.bind(this)}/>
         </div>
         );
     }

@@ -31,8 +31,8 @@ module.exports = {
 				template: 'src/index.html',
 				filename: 'index.html',
 				inject: 'body'
-		  })/*, new UglifyJSPlugin(), 
+		  }), new UglifyJSPlugin(), 
 			  new OptimizeJsPlugin({
   				sourceMap: false
-		  })*/]
+		  })]
 };
